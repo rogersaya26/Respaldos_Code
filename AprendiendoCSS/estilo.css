@@ -1,0 +1,51 @@
+*
+{
+
+}
+
+h5
+{
+	color: brown;
+}
+
+.titulo-h2
+{
+	color: red;
+}
+
+#element-modified
+{
+	color: green;
+}
+[rancio="sii"]
+{
+color: blue;
+}
+
+h2 p
+{
+	color: orange;
+}
+
+h2 b
+{
+	color: purple;
+}
+
+h2 p span
+{
+	color: gray;
+}
+
+.titulo-h2 b span 
+{
+	color: yellow;
+}
+
+p b:hover
+{
+	color: brown;
+}
+
+
+

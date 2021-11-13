@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/plantilla.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Bienvenidos a Libros y Regalos</title>
+<!-- InstanceEndEditable -->
+<link href="estilos/maquetacion.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="contenedor">
+  <div id="cabecera">
+    
+  </div>
+  <div id="mnu_superior"><a href="index.html">Principal</a> | <a href="Catalogo.html">Catalogo</a> | <a href="novedades.html">Novedades</a> | Mis Compras | <a href="contactos.html">Contactos</a></div>
+  <div id="barra_lateral">
+    <p class="titulomenu">Libros</p>
+    <ul class="menu">
+      <li>Accion y Aventura</li>
+      <li>Autoayuda</li>
+      <li>Cuentos</li>
+      <li>Historia</li>
+      <li>Novelas</li>
+    </ul>
+    <p class="titulomenu">Regalos</p>
+    <ul class="menu">
+      <li>Accesorio</li>
+      <li>Música y Video</li>
+      <li>Papeleria</li>
+    </ul>
+  </div>
+  <!-- InstanceBeginEditable name="contenido" -->
+  <div id="contenido">
+    <p class="tituloprincipal">Contactos</p>
+    <form action="javascript:alert('hola')" method="post" enctype="multipart/form-data" name="form1" id="form1">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre: </label>
+          <input name="nombre" type="text" id="nombre" value="Introdusca Nombre" size="30" maxlength="30" />
+          <label>Apellido:
+            <input name="apellido" type="text" id="apellido" value="Introdusca Apellido" />
+        </label>
+       
+        <p>
+          <label>Edad:
+            <input type="radio" name="Edad: " value="1" id="Edad:_0" />
+menor de 17</label>
+       
+          <label>
+            <input type="radio" name="Edad: " value="2" id="Edad:_1" />
+            entre 18 y 60</label>
+          <label>
+            <input type="radio" name="Edad: " value="3" id="Edad:_2" />
+          mayor de 61</label>
+          <br />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Pasatiempos</legend>
+          <label>
+            <input type="checkbox" name="Pasatiempos" value="1" id="Pasatiempos_0" />
+            Tv</label>
+          <label>
+            <input type="checkbox" name="Pasatiempos" value="2" id="Pasatiempos_1" />
+          Libros</label>
+          <label>
+            <input type="checkbox" name="Pasatiempos" value="3" id="Pasatiempos_2" />
+          Musica</label>
+          <br />
+        <label>
+            <input type="checkbox" name="Pasatiempos" value="4" id="Pasatiempos_3" />
+            Otros</label>
+           <label>
+             <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+           </label>
+           <br />
+      </fieldset>
+      <fieldset>
+        <legend>Actividades</legend>
+        <select name="actividades" id="actividades">
+          <option value="0" selected="selected">seleccione</option>
+          <option value="1">libros</option>
+          <option value="2">regalos</option>
+          <option value="3">accesorios</option>
+        </select>
+      </fieldset><fieldset><legend>Datos De Registro</legend>
+        <label for="usuario">Usuario: </label>
+        <input type="text" name="usuario" id="usuario" />
+        <label for="clave">Clave: </label>
+        <input type="password" name="clave" id="clave" />
+      </fieldset>
+<input name="enviar" type="submit" id="enviar" value="Enviar" /> 
+    <input type="reset" name="borrar" id="borrar" value="Borrar" />
+    <input name="imprimir" type="button" id="imprimir" onclick="javascript:window.print();" value="imprimir" />
+    </form>
+  </div>
+  <!-- InstanceEndEditable -->
+  <div id="pie_de_pagina">
+    <p class="textpie">Libros y Regalos &copy; 2012 <a href="condiciones_legales.docx">Condiciones legales</a><br />
+      Caracas</p>
+  </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,28 @@
+* {
+	font-family: monospace, monaco;
+	font-weight: 100;
+}
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+	
+}
+
+.caja {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	display: flex;
+	color: #fff;
+}
+
+.caja:hover {
+
+}
+
+b {
+	margin: auto;
+}
+

@@ -1,0 +1,53 @@
+Asignación Nro. 1. Curso Java Nivel I. CENEAC - UCV
+Luis Antonio Gonzalez Reyes <luisgreyes@gmail.com>	14 de enero de 2013, 19:00
+Cco: rogersaya@gmail.com
+1. Crear un arreglo que contenga los numero pares del 1 al 100. Posteriormente recorra el arreglo
+      y muéstrelo por pantalla. Ejemplo:
+      Arreglo => 2 | 4 | 6 | 8 | 10 | 12 |......| 100 |
+      índice  =>  0   1   2   3    4    5     6       49
+
+2. Calcule la sumatoria de los valores del arreglo 
+   anterior y muestre el resultado por pantalla.
+ 
+3. Cree una matriz de la siguiente forma:
+ | a | b | c |
+ | d | e | f  |
+ | g | h | i  |
+Realice sobre ella recorridos que muestren los
+siguientes resultados:
+a.- a,b,c,d,e,f,g,h,i,
+b.- a,d,g,b,e,h,c,f,i,
+c.- a,e,i,c,e,g,
+
+
+
+Asignación Nro. 2. Curso Java Nivel I. CENEAC - UCV
+Luis Antonio Gonzalez Reyes <luisgreyes@gmail.com>	16 de enero de 2013, 19:05
+Cco: rogersaya@gmail.com
+1.- Implemente una clase que simule las operaciones básicas de una calculadora(suma, resta, multiplicación  división), tomando en cuenta que las mismas pueden ser efectuadas con dos o tres operandos. Posteriormente desarrolle otra clase que permita probar todas las operaciones de la clase Calculadora, con valores definidos por usted.
+ 
+2.- Implemente una clase Circunferencia que permita calcular el area y su perimetro. Pruebe sus operaciones desde otra clase que cree una instancia de circunferencia, con valores definidos por usted.
+
+
+
+
+Asignación Nro. 3. Curso Java Nivel I. CENEAC - UCV
+Luis Antonio Gonzalez Reyes <luisgreyes@gmail.com>	18 de enero de 2013, 18:59
+Cco: rogersaya@gmail.com
+El banco del caribe, posee tres tipos de cuenta:
+Cuenta de ahorro.
+Cuenta corriente.
+Cuenta FAL (fondo de activos líquidos).
+Todas las cuentas tienen un saldo, una tasa de interés mensual, un número de cuenta y una persona titular. El saldo, el número de cuenta y el titular varían de acuerdo al número de clientes que tenga el banco, sin embargo la tasa de interés mensual es fija para cada tipo de cuenta:
+Cuenta de ahorro: 12 %
+Cuenta corriente: 3 %
+Cuenta FAL: 6 %
+Para todas las cuentas es posible obtener el saldo en cualquier momento, asi como: conocer la tasa de interes mensual, conocer cual es el nombre de la persona titular, y cuál es el número de cuenta. Sin embargo, tome en consideración que se puede cambiar el titular de la cuenta, mas no el número de la misma.
+ 
+Las operaciones de retiro y depósito se pueden realizar desde cualquier tipo de cuenta, tomando en consideración que el saldo mínimo que debe tener una cuenta de FAL será de bs. 100, mientras que para los demás tipos de cuenta será de bs. 10. Adicionalmente, por cada transacción de retiro que se haga en una cuenta corriente, habrá una comisión de 0,5 bs. Para la cuenta corriente es posible emitir chequeras a un costo de bs. 15, cada una.
+ 
+Implemente las clases usando el lenguaje de programación java y pruebe sus operaciones.
+
+
+
+

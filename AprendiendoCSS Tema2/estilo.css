@@ -1,0 +1,28 @@
+h1
+{
+	color: red !important
+}
+
+.color-red
+{
+color: brown;
+}
+
+.contact-form__input:first-child
+{
+	color: red;
+}
+
+.contact-form__input--estees
+{
+	color: blue;
+}
+.contact-form__p
+{
+	color: purple;
+}
+.contact-form__p-h2
+{
+	color: pink;
+}
+

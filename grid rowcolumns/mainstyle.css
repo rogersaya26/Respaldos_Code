@@ -1,0 +1,43 @@
+* {
+	font-family: monospace, monaco;
+	font-weight: 100%;	
+}
+
+body {
+	background: radial-gradient(circle,#fff,#bbb)
+}
+
+.grid-container {
+	background: #444;
+	display: grid;
+	grid-template-rows: 
+			[f-line]
+			150px
+			[s-line]
+			150px
+			[t-line]
+			150px
+			[f-line]
+			;
+	grid-template-columns: 
+			[linea-izquierda]
+			150px
+			150px
+			[linea3]
+			150px
+			[fin-del-main]
+			;
+	border: 5px solid #000;
+}
+
+.grid-item {
+	border: 1px solid #000;
+	background:lightgrey;
+}
+
+.grid-item:first-child {
+	background: red;
+	grid-row: f-line / t-line;
+	grid-column: linea-izquierda / linea/*=1/4*/;
+}
+

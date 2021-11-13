@@ -1,0 +1,15 @@
+*
+{
+	font-family: monospace;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+.main h1 
+{
+	color: #f33;
+	background-color: #333;
+	font-size: 34px;
+	display: inline-flex;
+	padding: 20px;
+}

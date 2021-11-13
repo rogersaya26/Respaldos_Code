@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+
+        @media only screen and (max-width: 600 px) {
+            body {
+                background-color: lightsalmon;
+            }
+        }
+    </style>
+    <script>
+        function hola() {
+            alert("soy alerta JS")
+        };
+        var contador = 0;
+        function contar() {
+            contador++;
+            document.querySelector("body > div.alert.alert-danger").innerHTML = contador;
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Mi Titulo de la Web</h1>
+    <h2>Mi Sibtitulo</h2>
+    <div class="alert alert-danger" role="alert">
+        0
+    </div>
+
+    <div class="card" style="width: 18rem">
+        <img class="card-img-top" src="./img/neural.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary" onclick="contar()">contador</a>
+        </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem">
+        <img class="card-img-top" src="./img/neural.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary" onclick="hola()">Saludo alerta</a>
+        </div>
+    </div>
+
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deserunt explicabo ut numquam recusandae laborum
+        nemo quae, excepturi suscipit sapiente veniam minima maxime magni, et dolor delectus sed, possimus voluptatem!
+    </p>
+</body>
+
+</html>

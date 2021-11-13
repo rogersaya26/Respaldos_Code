@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Bienvenidos a Libros y Regalos</title>
+<!-- TemplateEndEditable -->
+<link href="../estilos/maquetacion.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="contenedor">
+  <div id="cabecera">
+    
+  </div>
+  <div id="mnu_superior"><a href="../index.html">Principal</a> | <a href="../Catalogo.html">Catalogo</a> | <a href="../novedades.html">Novedades</a> | Mis Compras | <a href="../contactos.html">Contactos</a></div>
+  <div id="barra_lateral">
+    <p class="titulomenu">Libros</p>
+    <ul class="menu">
+      <li>Accion y Aventura</li>
+      <li>Autoayuda</li>
+      <li>Cuentos</li>
+      <li>Historia</li>
+      <li>Novelas</li>
+    </ul>
+    <p class="titulomenu">Regalos</p>
+    <ul class="menu">
+      <li>Accesorio</li>
+      <li>Música y Video</li>
+      <li>Papeleria</li>
+    </ul>
+  </div>
+  <!-- TemplateBeginEditable name="contenido" -->
+  <div id="contenido">
+    <p class="tituloprincipal">Bienvenidos </p>
+    <p class="contenido">Este texto es bien fastidioso Libros y regalos te ofrece la mejor respuesta de todos lo locos conocemos por q estudiamos y leemos porquerias que nos dejan conocimiento sin aprendizaje cuidence y tengo una empresa q esta quebrando se llama libros y regalo jajajajjaa vendo puros libros de alta calidad de material pero nada en lectura Nuria xD</p>
+  </div>
+  <!-- TemplateEndEditable -->
+  <div id="pie_de_pagina">
+    <p class="textpie">Libros y Regalos &copy; 2012 <a href="../condiciones_legales.docx">Condiciones legales</a><br />
+      Caracas</p>
+  </div>
+</div>
+</body>
+</html>

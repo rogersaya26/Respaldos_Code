@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script>
+        //Almacena datos temporalmente en el explorador
+        let contador = localStorage.getItem("contadoralmacenado");
+        function conteo() {
+            contador++;
+            localStorage.setItem("contadoralmacenado", contador);
+            document.querySelector('p').innerHTML = contador;
+            if (contador %10 === 0) {
+                alert(`contador ahora es ${contador}`)
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('p').innerHTML = localStorage.getItem("contadoralmacenado");
+            document.querySelector('button').onclick = conteo;
+        })
+    </script>
+</head>
+
+<body>
+
+    <h1>Contador</h1>
+    <p>0</p>
+    <button onclick="conteo()">Contar</button>
+
+
+</body>
+
+</html>

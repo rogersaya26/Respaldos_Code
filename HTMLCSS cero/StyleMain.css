@@ -1,0 +1,167 @@
+.title-art-h1
+{
+color: red;
+
+}
+
+#element-nav
+{
+	color:blue;
+}
+
+[rancio=sii]
+{
+	color:brown;
+}
+[selector="rog"]
+{
+	color: red;
+}
+#id-select-1
+{
+	color: red;
+}
+.azulejem
+{
+	color: brown;
+	font-family: sans-serif;
+	line-height: 3;
+	font-weight: 600;
+	
+}	
+
+.azulejem b
+{
+	color: red;
+}
+.azulejem b span
+{
+	color: blue;
+}
+
+.class-hovercolor
+{
+	color: red;
+}
+.class-hovercolor:hover
+{
+color: green;
+}
+.header-rancio
+{
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	background-color: red;
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 5px;
+	border-radius: 2em;
+	border: 10px inset green;
+	box-shadow: 10px 5px 5px 2px black;
+	text-shadow: 2px 2px 7px white,2px 2px 7px white ;
+	transform: rotate(10deg);
+}
+
+
+.contenedor-cajas
+{
+	position: relative;
+	border: 4px solid red;
+	margin: 50px auto;
+	height: 450px;
+	width: 450px;
+	background: green;
+}
+
+
+.caja1
+{
+	
+
+
+}
+
+.caja2
+{
+	
+	right: 0;	
+}
+
+.caja3
+{	
+	
+	right: 0;
+	bottom: 0;
+}
+
+.caja4
+{
+	bottom: 0;
+	
+}
+
+.caja5
+{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+
+.caja1, .caja2, .caja3, .caja4, .caja5
+{
+	display: block;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: 800;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+
+.neneko
+{
+	margin: auto;
+	margin-top: 50px;
+	border: 4px solid red;
+	background: gray;
+	width: 50%;
+	padding: 20px;
+	
+}
+
+.neneko p
+{
+float: left;
+width: 50%;	
+}
+
+.neneko img
+{
+	width: 200px;
+	float: left;
+	margin-right: 18px;
+}
+
+.textejem
+{
+	padding: 20px;
+	display: inline-block;
+}
+
+.textejem::first-letter
+{
+	color: blue;
+	font-size: 6em;
+}
+.textejem::first-line
+{
+	color: blue;
+	font-size: 1.5em;
+}

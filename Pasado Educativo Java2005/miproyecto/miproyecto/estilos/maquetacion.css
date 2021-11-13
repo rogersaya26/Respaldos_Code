@@ -1,0 +1,101 @@
+@charset "utf-8";
+#contenedor {
+	height: 600px;
+	width: 739px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#cabecera {
+	background-image: url(../imagenes/encabezado.jpg);
+	height: 198px;
+	width: 739px;
+	background-repeat: no-repeat;
+}
+#barra_lateral {
+	float: left;
+	width: 140px;
+	background-color: #e1efcf;
+	max-height:100%;
+	padding: 10px;
+}
+#contenido {
+	float: right;
+	width: 559px;
+	background-color: #FFF;
+	margin: 0px;
+}
+#pie_de_pagina {
+	background-color: #bbd9a8;
+	clear: both;
+	background-image: url(../imagenes/fondo_pie.gif);
+	background-repeat: repeat-x;
+	height: 46px;
+	text-align:right
+}
+.contenido {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #09F;
+	padding-left: 20px;
+}
+.tituloprincipal {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #09C;
+	padding-left: 45px;
+}
+.titulomenu {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #09C;
+	padding-left: 45px;
+}
+
+ul.menu {
+	list-style-image: url(../imagenes/vineta.jpg);
+	margin-left: -20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #09C;
+}
+#mnu_superior a {
+	color: #FFF;
+	text-decoration: none;
+}
+#mnu_superior a:hover {
+	color: #C96;
+	text-decoration: none;
+}
+
+
+#mnu_superior {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #460001;
+	height: 15px;
+	width: 440px;
+	margin: 0px;
+	padding: 0px;
+}
+.textpie {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	padding-top: 5px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.promotext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #F00;
+	text-decoration: blink;
+	font-weight: bold;
+	text-align:center
+}

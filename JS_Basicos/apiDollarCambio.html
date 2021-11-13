@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<script>
+    document.addEventListener('DOMcontentLoaded', () => {
+        fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
+        .then(response => response.json())
+        .then(data => {
+            var dolar_compra = parseFloat(data[0].casa.compra);
+            document.querySelector('p').innerHTML = `1 USD es igual a ${dolar_compra.toFixed(2)} ARS en tipo de cambio oficial (COMPRA)`;
+        });
+    });
+
+</script>
+<body>
+   <p></p> 
+</body>
+</html>

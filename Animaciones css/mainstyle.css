@@ -1,0 +1,65 @@
+* {
+	font-family: monospace, monaco;
+	font-weight: 100;
+}
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+	
+}
+
+.caja {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	animation-name: desplazarse;
+	animation-duration: 3s;
+	position: relative;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+}
+
+.caja2 {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;	
+	animation: desplazarse2;
+	animation-duration: 3s;
+	position: relative;
+	animation-iteration-count: 3;
+	animation-direction: alternate-reverse;
+	animation-fill-mode: forwards;
+}
+
+@keyframes desplazarse {
+	0% {
+		left: 0;
+		background: #025;
+	}
+
+	50% {
+		background: red;
+	}
+
+	100% {
+		left: 80%;
+		background: green;
+	}
+}
+
+@keyframes desplazarse2 {
+	from {
+		left: 0;
+		background: #025;
+	}
+
+	to {
+		left: 80%;
+		background: red;
+	}
+}
+

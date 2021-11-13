@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            padding: 10%;
+            text-align: center;
+            background-color: lightskyblue;
+            color: darkslategray;
+        }
+        .navbar{
+            display: flex;
+            background-color: dimgrey;
+            color: floralwhite;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: wheat;
+            color: black;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .side{
+            flex: 30%;
+            background-color: lightsteelblue;
+            padding: 20px;
+        }
+        .main{
+            flex: 70%;
+            background-color: lightyellow;
+            padding: 20px;
+        }
+        .imagen{
+            background-color: black;
+            width: 100%;
+            padding: 20px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: lightpink;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <h4>Mensaje de notificaciones</h4>
+    </div>
+    <div class="header">
+        <h1>Mi Portal Web</h1>
+        <p>Este es mi layaut responsivo</p>
+    </div>
+    <div class="navbar">
+        <a href="#">Enlace</a>
+        <a href="#">Enlace</a>
+        <a href="#">Enlace</a>
+        <a href="#">Enlace</a>
+        <a href="#">Enlace</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>Nombre de Perfil</h2>
+            <h5>Algo mass.....</h5>
+            <div class="imagen" style="height:200px">Aca iria la imagen</div>
+            <h3>Subtitulo</h3>
+            <p>Alguna descripcion....</p>
+            <div class="imagen" style="height:60px">Aca iria la imagen</div>
+            <div class="imagen" style="height:60px">Aca iria la imagen</div>
+            <div class="imagen" style="height:60px">Aca iria la imagen</div>
+        </div>
+        <div class="main">
+            <h2>TITULO DE CABECERA</h2>
+            <h5>Subtitulo....</h5>
+            <div class="imagen" style="height:200px">Aca iria la imagen</div>
+            <p>Contenido....</p>
+            <p>Mas contenido...</p>
+
+            <h2>TITULO DE CABECERA</h2>
+            <h5>Subtitulo....</h5>
+            <div class="imagen" style="height:200px">Aca iria la imagen</div>
+            <p>Contenido....</p>
+            <p>Mas contenido...</p>
+            
+        </div>
+    </div>
+        <div class="footer">
+            <h2>Este es el pie de pagina de mi sitio</h2>
+        </div>
+</body>
+</html>
