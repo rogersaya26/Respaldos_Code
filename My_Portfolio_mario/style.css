@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #ff005c;
+}
+.header {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+}
+
+.casilla {
+    background: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 80px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+.casilla:hover {
+    background: #025955;
+    color: white;
+}
+
+
+.zona_parallax {
+    background: url('img/Mario_programmer.jpg') #ff005c;
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 474px;
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    text-transform: uppercase;
+    display: block;
+}
+
+.contenedor {
+    display: flex;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 600;
+}
+.seccion {
+    background: white;
+    border: 4px solid black;
+    margin: 10px 20px;
+    width: 100%;
+}
+.seccion h3 {
+    text-align: center;
+}
+.footer {
+    background: #025955;
+    height: 100px;
+}
+
+@media (max-width:768px){
+    .contenedor {
+    flex-wrap: wrap;
+    }
+    .header {
+    flex-wrap: wrap;
+    }
+}
